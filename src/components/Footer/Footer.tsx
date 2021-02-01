@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent } from "react"
 import "./styles.css"
 
 export const Footer: FunctionComponent = () => {
@@ -6,7 +6,7 @@ export const Footer: FunctionComponent = () => {
 
     return (
         <footer className="footer">
-            <a href="https://fullstack.io">Fullstack.oi</a>
+            <a href="https://newline.co">Newline.co</a>
             <br />
             {currentYear}
         </footer>
