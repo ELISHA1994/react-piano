@@ -4,3 +4,13 @@ export type OctaveIndex = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
 
 export type MidiValue = number
 export type PitchIndex = number
+
+/* Interface of a Note */
+export interface Note {
+    midi: MidiValue
+    type: NoteType
+
+    pitch: NotePitch
+    index: PitchIndex
+    octave: OctaveIndex
+}
